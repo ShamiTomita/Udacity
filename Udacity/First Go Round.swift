@@ -6,4 +6,6 @@
 //
 
 import Foundation
-ffefe
+var question = "Ready to write your first lines of Swift?"
+var response = "Heck yeah, I'm ready!"
+var salutation = "Hello, world!"
