@@ -11,6 +11,7 @@
 		DBC6C5242915C93000FD1BE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC6C5232915C93000FD1BE2 /* ContentView.swift */; };
 		DBC6C5262915C93100FD1BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC6C5252915C93100FD1BE2 /* Assets.xcassets */; };
 		DBC6C5292915C93100FD1BE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC6C5282915C93100FD1BE2 /* Preview Assets.xcassets */; };
+		DBC6C5302915C97000FD1BE2 /* First Go Round.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC6C52F2915C97000FD1BE2 /* First Go Round.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DBC6C5232915C93000FD1BE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DBC6C5252915C93100FD1BE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBC6C5282915C93100FD1BE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBC6C52F2915C97000FD1BE2 /* First Go Round.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "First Go Round.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				DBC6C5232915C93000FD1BE2 /* ContentView.swift */,
 				DBC6C5252915C93100FD1BE2 /* Assets.xcassets */,
 				DBC6C5272915C93100FD1BE2 /* Preview Content */,
+				DBC6C52F2915C97000FD1BE2 /* First Go Round.swift */,
 			);
 			path = Udacity;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC6C5302915C97000FD1BE2 /* First Go Round.swift in Sources */,
 				DBC6C5242915C93000FD1BE2 /* ContentView.swift in Sources */,
 				DBC6C5222915C93000FD1BE2 /* UdacityApp.swift in Sources */,
 			);
