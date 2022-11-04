@@ -21,6 +21,7 @@
 		DBC6C5252915C93100FD1BE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBC6C5282915C93100FD1BE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DBC6C52F2915C97000FD1BE2 /* First Go Round.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "First Go Round.swift"; sourceTree = "<group>"; };
+		DBC6C5312915CE4600FD1BE2 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../../MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +54,7 @@
 		DBC6C5202915C93000FD1BE2 /* Udacity */ = {
 			isa = PBXGroup;
 			children = (
+				DBC6C5312915CE4600FD1BE2 /* MyPlayground.playground */,
 				DBC6C5212915C93000FD1BE2 /* UdacityApp.swift */,
 				DBC6C5232915C93000FD1BE2 /* ContentView.swift */,
 				DBC6C5252915C93100FD1BE2 /* Assets.xcassets */,
