@@ -27,7 +27,14 @@ struct UdacityApp: App {
             var age = currentYear - birthYear
             currentYear = 2017
             age = currentYear - birthYear
-
+            var apples = "apples";
+            var oranges = "oranges";
+            let quotation = """
+            I said "I have \(apples) apples."
+            And then I said "I have \(apples + oranges) pieces of fruit."
+            """
+            
+            
         }
     }
 }
