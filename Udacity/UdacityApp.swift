@@ -34,7 +34,17 @@ struct UdacityApp: App {
             And then I said "I have \(apples + oranges) pieces of fruit."
             """
             
-            
+            var fruits = ["strawberries", "limes", "tangerines"]
+            fruits[1] = "grapes"
+
+            var occupations = [
+                "Malcolm": "Captain",
+                "Kaylee": "Mechanic",
+            ]
+            //occupations["Jayne"] = "Public Relations”
+            //initialize empty arrays like this, unless you can inferr the type... but what are the tricky times???
+            let emptyArray: [String] = []
+            let emptyDictionary: [String: Float] = [:]
         }
     }
 }
