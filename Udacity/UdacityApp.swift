@@ -45,6 +45,26 @@ struct UdacityApp: App {
             //initialize empty arrays like this, unless you can inferr the type... but what are the tricky times???
             let emptyArray: [String] = []
             let emptyDictionary: [String: Float] = [:]
+            
+            fruits = []
+            occupations = [:]
+            
+            //Control Flow
+            
+            let individualScores = [75, 40, 39, 90]
+            var teamScores = 0
+            for score in individualScores {
+                if score > 50 {
+                    teamScores += 3
+                }else{
+                    teamScores += 1
+                }
+            }
+            
+            
+            
+            
+            ///
         }
     }
 }
