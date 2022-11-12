@@ -82,6 +82,8 @@ for i in 0..<4 {
 print(total)
 // Prints "6”
 
+
+// the -> seperates the arugments + their types from the return type
 func greet(person: String, day: String) -> String {
     return "Hello \(person), today is \(day)."
 }
