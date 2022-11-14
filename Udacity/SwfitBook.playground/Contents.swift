@@ -129,3 +129,13 @@ func returnFifteen() -> Int {
     return y
 }
 returnFifteen()
+
+//functions can return another function as its value
+func makeIncrementer() -> ((Int) -> Int) {
+    func addOne(number: Int) -> Int {
+        return 1 + number
+    }
+    return addOne
+}
+var increment = makeIncrementer()
+increment(7)
