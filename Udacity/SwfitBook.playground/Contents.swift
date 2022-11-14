@@ -118,3 +118,14 @@ print(statistics.sum)
 print(statistics.2)
 // Prints "120”
 
+
+//functions can be nested
+func returnFifteen() -> Int {
+    var y = 10
+    func add() {
+        y += 5
+    }
+    add()
+    return y
+}
+returnFifteen()
