@@ -154,3 +154,29 @@ func lessThanTen(number: Int) -> Bool {
 }
 var numbers = [20, 19, 7, 12]
 hasAnyMatches(list: numbers, condition: lessThanTen)
+
+//Structures and Classes has many things in commmon
+//both define properties to store values, provide functionality, subscripts, define initializers,
+//Classes have more capabilities that structures
+//Classes have inheritance, type of a class instace,
+
+struct SomeStructure {
+    //structure definition goes here
+}
+
+class SomeClass {
+    //class definition goes here
+}
+//defining a new structure or class is like creating a new Swift type
+
+struct Resolution {
+    var width = 0
+    var height = 0
+}
+
+class VideoMode {
+    var resolution = Resolution()
+    var interlaced = false
+    var frameRate = 0.0
+    var name: String? //maybe it doesnt have a name right now!
+}
