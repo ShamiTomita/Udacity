@@ -180,3 +180,41 @@ class VideoMode {
     var frameRate = 0.0
     var name: String? //maybe it doesnt have a name right now!
 }
+
+struct Dog {
+    var name: String
+    var breed: String
+    var owner: String
+}
+
+var brayan = Dog(name: "Brayan", breed: "Mutt", owner: "Tomitas")
+var kevyn = brayan
+kevyn.name = "Kevyn"
+kevyn.owner = "Ana & Sean"
+
+brayan
+kevyn
+
+
+class Cat {
+    var name: String?
+    var breed: String?
+    var owner: String?
+    
+    init(name: String, breed: String, owner: String){
+        self.name = name
+        self.breed = breed
+        self.owner = owner
+    }
+}
+
+var milo = Cat(name: "Milo", breed:"Black", owner:"Shami")
+milo.name // = milo
+var kunst = milo
+kunst.name = "Kunst"
+kunst
+milo.name = "Demon"
+milo
+kunst
+
+
