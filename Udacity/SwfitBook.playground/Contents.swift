@@ -217,4 +217,38 @@ milo.name = "Demon"
 milo
 kunst
 
+let marioParty = ["Birdo", "Boo", "Yoshi", "Luigi", "Rosalina", "Shy Guy"]
+
+let marioPartyOrder = [
+    1: "Birdo",
+    4: "Boo",
+    0: "Yoshi",
+    3: "Rosalina",
+    2: "Shy Guy"
+]
+
+for player in marioParty {
+    print(player)
+}
+
+var randomInts: [Int] = []
+
+for _ in 0..<25{
+    let randomInt = Int.random(in: 1...100)
+    randomInts.append(randomInt)
+}
+print(randomInts)
+
+for i in 0..<marioParty.count{
+    print("\(i). \(marioParty[i])")
+}
+
+for (position, player) in marioPartyOrder{
+    print("\(player) is \(position+1) in the order")
+}
+
+for player in marioParty where player == "Birdo"{
+    print("honk honk!")
+}
+
 
